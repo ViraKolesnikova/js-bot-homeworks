@@ -38,26 +38,147 @@
   
 //   // Change code above this line
 // }
-// console.log(checkStorage(20, 5))
+// console.log(checkStorage(5, 0))
 
 //Task 4
 // Change code below this line
 // const fruits = ["apple", "plum", "pear", "orange"];
 
 //Task 5
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+// // Change code below this line
+// const firstElement = fruits[0];
+// const secondElement = fruits[1];
+// const lastElement = fruits[fruits.length-1];
+
+// console.log(lastElement)
 
 //Task 6
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+// // Write your code under this line
+// fruits[1] = "peach";
+// fruits[3] = "banana";
 
 //Task 7
+// const fruits = ["apple", "peach", "pear", "banana"];
+
+// // Change code below this line
+// const fruitsArrayLength = fruits.length;
+// console.table(fruits)
 
 //Task 8
+// const fruits = ["apple", "peach", "pear", "banana"];
+
+// // Change code below this line
+// const lastElementIndex = fruits.length-1;
+// const lastElement = fruits[lastElementIndex];
+// console.log(lastElementIndex)
+// console.log(lastElement)
+
 
 //Task 9
+// function getExtremeElements(array) {
+ 
+//   const firstElement = array[0];
+//   const lastElement = array[array.length-1];
+//   const newMassive = [firstElement, lastElement];
+
+//   return newMassive
+// }
+// console.log(getExtremeElements([1, 2, 3, 4]));
 
 //Task 10
+// function splitMessage(message, delimeter) {
+//   let words;
+//   // Change code below this line
+//  words = message.split(delimeter);
+//   // Change code above this line
+//   return words;
+// }
+
 
 //Task 11
+// function calculateEngravingPrice(message, pricePerWord) {
+ 
+//   const engravingWords = message.split(" ");
+//   const totalPrice = engravingWords.length * pricePerWord;
+
+//   return totalPrice; 
+// }
+// console.log(calculateEngravingPrice("Web-development is creative work", 20))
 
 //Task 12
+// function makeStringFromArray(array, delimeter) {
+//   let string;
+//   // Change code below this line
+
+//   string = array.join(delimeter);
+
+//   // Change code above this line
+//   return string;
+// }
 
 //Task 13
+// const title = "Ten secrets of JavaScript";
+// const toLowerCaseTitle = title.toLowerCase();
+// console.log(toLowerCaseTitle);
+// const splitTitle = toLowerCaseTitle.split(" ");
+// console.log(splitTitle);
+// const slugTitle = splitTitle.join("-");
+// console.log(slugTitle)
+
+//Task 14
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, fruits.length-1);
+// const lastThreeEls = fruits.slice(-3);
+
+// console.log(nonExtremeEls)
+
+//Task 15
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients);
+
+//Task 16
+// function makeArray(firstArray, secondArray, maxLength) {
+//     // Change code below this line
+// let newArray = firstArray.concat(secondArray);
+//   if(newArray.length>maxLength) {
+//     newArray = newArray.slice(0, maxLength)
+//   }
+  
+//   return newArray
+
+//     // Change code above this line
+//   }
+// console.log(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4))
+
+//Task 17
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i += 1) { // Change this line
+//   console.log(i);
+// }
+
+//Task 18
+
+//Task 19
+
+//Task 20
+
+//Task 21
+
+//Task 22
+
+//Task 23
+
+//Task 24
+
+//Task 25
