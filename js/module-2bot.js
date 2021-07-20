@@ -168,16 +168,81 @@
 // }
 
 //Task 18
+// function calculateTotal(number) {
+//  // Change code below this line
+//  let total = 0;
+  
+//   for (let i = 1; i <= number; i += 1) {
+    
+//     total+=i;
+//   }
+  
+//  return total; 
+// }
+// console.log(calculateTotal(18))
 
 //Task 19
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+// for (let i = 0; i < fruits.length; i+=1) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
 
 //Task 20
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+//  for(let good of order) {
+//   total+=good;
+//  }
+//   // Change code above this line
+//   return total;
+// }
+// console.log(calculateTotalPrice([412, 371, 94, 63, 176]));
 
 //Task 21
+// let string = "May the force be with you";
+
+// const myArray = string.split(" ");
+// console.log(myArray)
+// let theLongestWord = myArray[0];
+
+// for (let i = 0; i < myArray.length; i += 1) {
+//   if(myArray[i].length>theLongestWord.length) {
+//     theLongestWord = myArray[i];
+//   } 
+// }
+// console.log(theLongestWord)
+
 
 //Task 22
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   // Change code below this line
+// for(let i = min; i <= max; i += 1) {
+//   numbers.push(i);
+// }
+//   // Change code above this line
+//   return numbers;
+// }
+// console.log(createArrayOfNumbers(3, 9))
 
 //Task 23
+// function filterArray(numbers, value) {
+//   const biggerIntArray = [];
+//   for(let i = 0; i < numbers.length; i += 1) {
+    
+//     if(numbers[i] > value) {
+//       biggerIntArray.push(numbers[i]);
+//     }
+//     continue;
+// }
+     
+//  return biggerIntArray
+  
+// }
+// console.log(filterArray([12, 24, 8, 41, 76], 38))
 
 //Task 24
 
