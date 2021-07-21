@@ -245,5 +245,13 @@
 // console.log(filterArray([12, 24, 8, 41, 76], 38))
 
 //Task 24
+function checkFruit(fruit) {
+  const fruits = ["apple", "plum", "pear", "orange"];
+  if(fruits.includes(fruit)) {
+    return true;
+  }
+  return false; // Change this line
+}
+console.log(checkFruit("plum"));
 
 //Task 25
