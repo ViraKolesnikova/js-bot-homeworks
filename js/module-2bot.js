@@ -245,13 +245,104 @@
 // console.log(filterArray([12, 24, 8, 41, 76], 38))
 
 //Task 24
-function checkFruit(fruit) {
-  const fruits = ["apple", "plum", "pear", "orange"];
-  if(fruits.includes(fruit)) {
-    return true;
-  }
-  return false; // Change this line
-}
-console.log(checkFruit("plum"));
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+
+//   return fruits.includes(fruit); // Change this line
+// }
+// console.log(checkFruit("apple"))
 
 //Task 25
+// function getCommonElements(array1, array2) {
+//   // Change code below this line
+//   const commonElemArray = [];
+//   for(let i=0; i < array1.length; i+=1) {
+    
+//   if(array2.includes(array1[i])) {
+//     commonElemArray.push(array1[i]);
+//   }
+//  }
+//   return commonElemArray
+//  // Change code above this line
+// }
+// console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]));
+
+//Task 26
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   for (let good of order) {
+//     console.log(good);
+//     total += good;
+//   }
+//   return total;
+// }
+// console.log(calculateTotalPrice([12, 85, 37, 4]))
+
+//Task 27
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
+
+//   for (let number of numbers) {
+    
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   }
+//   return filteredNumbers;  
+// }
+
+
+//Task 28
+// const a = 3 % 1;
+// const b = 4 % 3;
+// const c = 11 % 4;
+// const d = 12 % 7;
+// const e = 8 % 6;
+
+//Task 29
+// function getEvenNumbers(start, end) {
+//   const evenNumbers = [];
+//   for (let i = start; i<=end; i+=1) {
+//     if(i % 2 === 0) {
+//       evenNumbers.push(i)
+//     }
+//   }
+//   return evenNumbers;
+// }
+// console.log(getEvenNumbers(3, 22));
+
+//Task 30
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break
+//   }
+// }
+// console.log(number);
+
+//Task 31
+// function findNumber(start, end, divisor) {
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//        return i;      
+//     }
+//   }
+// }
+// console.log( findNumber(32, 45, 5));
+
+//Task 32
+// function includes(array, value) {
+ 
+//   for (let element of array) {
+//     if (element === value) {
+//       return true;
+//       break;
+//     }
+//   }  
+//   return false;
+// }
+// console.log(includes([1, 2, 3, 4, 5], 1))
