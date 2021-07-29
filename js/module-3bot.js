@@ -173,12 +173,82 @@
 // console.log(values);
 
 //TASK 16
+// function countTotalSalary(salaries) {
+//   let totalSalary = 0;
+  
+//   const salaryArray= Object.values(salaries);
+//   console.log(salaryArray);
+
+//   for (const value of salaryArray) {
+//     console.log(value);
+//     totalSalary += value;
+//   }
+//   return totalSalary;
+// }
+// console.log(countTotalSalary({ mango: 100, poly: 150, alfred: 80 }))
+
+
 
 //TASK 17
+// const colors = [
+//   { hex: '#f44336', rgb: '244,67,54' },
+//   { hex: '#2196f3', rgb: '33,150,243' },
+//   { hex: '#4caf50', rgb: '76,175,80' },
+//   { hex: '#ffeb3b', rgb: '255,235,59' },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+
+// for (let color of colors) {
+//   console.log(color);
+//   hexColors.push(color.hex);
+//   rgbColors.push(color.rgb)
+// }
+// console.log(hexColors);
+// console.log(rgbColors);
+
 
 //TASK 18
+// const products = [
+//   { name: 'Radar', price: 1300, quantity: 4 },
+//   { name: 'Scanner', price: 2700, quantity: 3 },
+//   { name: 'Droid', price: 400, quantity: 7 },
+//   { name: 'Grip', price: 1200, quantity: 9 },
+// ];
+
+// function getProductPrice(productName) {
+//   for (const product of products) {
+//     // console.log(product);
+//     if (product.name === productName) {
+//       return product.price;      
+//     }
+//   }
+//   return null;
+// }
+
+// console.log(getProductPrice("jhyfys"))
+
 
 //TASK 19
+// const products = [
+//   { name: 'Radar', price: 1300, quantity: 4 },
+//   { name: 'Scanner', price: 2700, quantity: 3 },
+//   { name: 'Droid', price: 400, quantity: 7 },
+//   { name: 'Grip', price: 1200, quantity: 9 },
+// ];
+
+// let propNameValues = [];
+// function getAllPropValues(propName) {
+//   for (let product of products) {
+//     if (product.hasOwnProperty(propName)) {
+//       propNameValues.push(product[propName]);
+//     }
+//   }
+//   return propNameValues
+// }
+// console.log(getAllPropValues("price"));
+
 
 //TASK 20
 
