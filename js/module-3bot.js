@@ -536,4 +536,51 @@
 
 
 //TASK 41
+const atTheOldToad = {
+  potions: [
+    { name: 'Speed potion', price: 460 },
+    { name: 'Dragon breath', price: 780 },
+    { name: 'Stone skin', price: 520 },
+  ],
+  // Change code below this line
+  getPotions() {
+    return this.potions;
+  },
+  addPotion(potionName) {
+    for(let potion of this.potions) {
+     if (this.potions.includes(potionName)) {
+       return `Potion ${potionName} is already equipped!`;
+     }   
+        
+    }
+     return this.potions.push(potionName);
+  },
+  removePotion(potionName) {
+    for(let i=0; i < this.potions.length; i+=1) {
+      // console.log(this.potions[i].name);
+      if (potionName === this.potions[i].name) {
+        this.potions.splice(i, 1)
+        return
+      }
+    }
+    return `Potion ${potionName} is not in inventory!`;
+      
+  },
+  updatePotionName(oldName, newName) {
+    for (let potion of this.potions) {
+      const potionIndex = this.potions.indexOf(oldName);
+      if (potion.name === oldName) {
+        // console.log(this.potions);
+        potion.name = newName;
+        return
+      }
+       
+    }    
+      return `Potion ${oldName} is not in inventory!`;
+  },
+  // Change code above this line
+};
 
+atTheOldToad.updatePotionName('Dragon breath', 'Smell', 10);
+// console.log(atTheOldToad.updatePotionName('Dragon breath', 'Smell'));
+console.log(atTheOldToad.getPotions());
