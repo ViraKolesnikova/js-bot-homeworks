@@ -240,17 +240,113 @@ const users = [
   },
 ];
 
-const getUserNames = users => {
-  
-    
-};
-  // Пиши код выше этой строки
+// const getUserNames = users => {
+// const userNames = users.map(user => {
+//  return user.name;    
+// })
+// // console.log(userNames);
+//   return userNames;
+// };
 
 
 //Task 14
+// const getUserEmails = users => {
+//   const userEmails = users.map(user => {
+//     return user.email;
+//   })  
+//     return userEmails;
+// };
+// console.log(getUserEmails(users));
 
 //Task 15
+// const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
+// // Пиши код ниже этой строки
+
+// const evenNumbers = numbers.filter(number => number % 2 === 0);
+// const oddNumbers = numbers.filter(number => number % 2 > 0);
+// console.log(evenNumbers);
+// console.log(oddNumbers);
 
 //Task 16
+// const books = [
+//     {
+//       title: 'Последнее королевство',
+//       author: 'Бернард Корнуэлл',
+//       genres: ['приключения', 'историческое']
+//     },
+//     {
+//       title: 'На берегу спокойных вод',
+//       author: 'Роберт Шекли',
+//       genres: ['фантастика', 'мистика']
+//     },
+//     {
+//       title: 'Красна как кровь',
+//       author: 'Ли Танит',
+//       genres: ['ужасы', 'мистика', 'приключения']
+//     }
+//   ];
+//   // Пиши код ниже этой строки
+// const allGenres = books.flatMap(book => book.genres);
+//   console.log(allGenres);
+//   const uniqueGenres = allGenres.filter((genre, index, allGenres) => allGenres.indexOf(genre)=== index);
+// console.log(uniqueGenres);
 
 //Task 17
+// const books = [
+//   { title: 'Последнее королевство', author: 'Бернард Корнуэлл', rating: 8.38 },
+//   { title: 'На берегу спокойных вод', author: 'Роберт Шекли', rating: 8.51 },
+//   { title: 'Сон смешного человека', author: 'Федор Достоевский', rating: 7.75 },
+//   { title: 'Красна как кровь', author: 'Ли Танит', rating: 7.94 },
+//   { title: 'Враг Божий', author: 'Бернард Корнуэлл', rating: 8.67 }
+// ];
+
+// const MIN_RATING = 8;
+// const AUTHOR = 'Бернард Корнуэлл';
+// // Пиши код ниже этой строки
+
+// const topRatedBooks = books.filter(book => book.rating >= MIN_RATING);
+// const booksByAuthor = books.filter(book => book.author === AUTHOR);
+// console.log(topRatedBooks);
+// console.log(booksByAuthor);
+
+//Task 18
+// const getUsersWithEyeColor = (users, color) => {
+//  const usersEyeColor = users.filter(user => user.eyeColor === color);
+//   return usersEyeColor;
+// };
+
+// getUsersWithEyeColor(users, brown);
+// console.log(usersEyeColor);
+
+//Task 19
+// const getUsersWithAge = (users, minAge, maxAge) => {
+//   const usersWithAge = users.filter(user => {
+//     user.age >= minAge && user.age <= maxAge
+//   })
+
+//   return usersWithAge;
+// };
+
+// getUsersWithAge(users, 20, 30);
+
+
+//Task 20
+// const getUsersWithFriend = (users, friendName) => {
+// const userWithFriend = users.filter(user =>
+//   user.friends.includes(friendName));
+//   return userWithFriend;
+// };
+
+// console.log(getUsersWithFriend(users, 'Aisha Tran'));
+
+//Task 21
+
+//Task 22
+
+//Task 23
+
+//Task 24
+
+//Task 25
+
+//Task 26
