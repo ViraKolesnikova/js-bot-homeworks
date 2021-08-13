@@ -332,9 +332,7 @@ const users = [
 
 //Task 20
 // const getUsersWithFriend = (users, friendName) => {
-// const userWithFriend = users.filter(user =>
-//   user.friends.includes(friendName));
-//   return userWithFriend;
+//   return users.filter(user => user.friends.includes(friendName));
 // };
 
 // console.log(getUsersWithFriend(users, 'Aisha Tran'));
